@@ -1,39 +1,19 @@
 # PUT-Game
-Gra typu Arena(#1) na której od 1 do 4 graczy(#2) będzie walczyć między sobą za pomocą broni(#10) oraz umiejętnosci specjalnych oraz dobieranych przedmiotów.
-Grę wygrywa osoba która zdobędzie określoną ilość zwycięstw.
-Podczas gry mogą wystąpić różnego rodzaju utrudnienia(#3) generowane losowo.
+Gra typu Arena(#1) na której gracz(#2) będzie walczyć z różnymi przeciwnikami za pomocą broni(#10) oraz umiejętnosci specjalnych oraz dobieranych przedmiotów.
+By wygrać trzeba przeżyć 5 fali.
+Podczas gry mogą wystąpić różnego rodzaju utrudnienia(#3) generowane losowo or.
 
 #1 Arena
   Winter
   Spring
-  Desert
-  Graveyard
-  Ship
   
 #2 Hero
-  Samurai
-  Assassi
-  Monk
-  Giant
-
-#3 map-effect
-  Fog
-  Sandstorm
-  Storm
-  Flash
-  Sudden Death
-  Nothing
-  Zombie(Przy wykonaniu przeciwników)
   
 #10 Typy broni:
   Bliskiego zasięgu:
-    sword
-    katana
+    axe
     knife
-    fist
-    stick
-    hands
-    kastet
+
 
 
 Wchodząc do gry widzi się menu główne z opcjami:
@@ -42,7 +22,7 @@ Sterowanie
 Wyjdź
 
 Po kliknięciu "Zagraj" przenosi gracza do wyboru:
-| 1 hero | 2 hero | 3 hero | 4 hero |
+| 1 hero |
   Wybór klasy hero 
   |Samurai|Assassin|monk|giant|
     Personalizacja klasy:
