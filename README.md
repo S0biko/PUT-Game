@@ -1,59 +1,15 @@
 # PUT-Game
-Gra typu Arena(#1) na której gracz(#2) będzie walczyć z różnymi przeciwnikami za pomocą broni(#10) oraz umiejętnosci specjalnych oraz dobieranych przedmiotów.
-By wygrać trzeba przeżyć 5 fali.
-Podczas gry mogą wystąpić różnego rodzaju utrudnienia(#3) generowane losowo or.
 
-#1 Arena
-  Winter
-  Spring
-  
-#2 Hero
-  
-#10 Typy broni:
-  Bliskiego zasięgu:
-    axe
-    knife
+Opis projektu
 
+PutGame to dynamiczna gra 2D stworzona przy użyciu biblioteki SFML. W grze sterujesz bohaterem, który porusza się po planszy, unika przeszkód i walczy z przeciwnikami za pomocą różnych broni, takich jak noże, siekiera i kula ognia. Twoim celem jest przetrwać jak najdłużej i zdobyć jak najwyższy wynik.
+Funkcje
 
-
-Wchodząc do gry widzi się menu główne z opcjami:
-Zagraj
-Sterowanie
-Wyjdź
-
-Po kliknięciu "Zagraj" przenosi gracza do wyboru:
-| 1 hero |
-  Wybór klasy hero 
-  |Samurai|Assassin|monk|giant|
-    Personalizacja klasy:
-    |Samurai|
-    |sword 1|katana 2|
-    |Special Skill 1|Special Skill 2|
-    
-    |Assassin|
-    |sword 1|knife 2|
-    |Special Skill 1|Special Skill 2|
-    
-    |monk|
-    |fist 1|Stick 2|
-    |Special Skill 1|Special Skill 2|
-    
-    |giant|
-    |hands 1|kastet 2|
-    |Special Skill 1|Special Skill 2|
-      Ilość rund do wygrania :
-      | 1 | 2 | 3 | 4 |
-        Efekty losowe:
-        | TAK | NIE |
-Po kliknięciu "Sterowanie" przenosi gracza do:
-Schemat z podświetlonymi klawiszami odpowiadającymi za dany numer gracza
-
-Po kliknięciu "Wyjdź" gra zostaje wyłączona:
-
-Przechodzenie do gry:
-  Ustawianie gracza w określonym miejscu.
-  Walka do bohatera który jako jedyny żyje.
-  Po zakończeniu pierwszej gry każdy gracz może zabrać nowy przedmiot.
-  Jeśli bohater zdobędzie ustawioną liczbę punktów koniec gry.
-  Widok zwycięzcy.
-  
+    Bohater: Postać gracza, która może poruszać się w czterech kierunkach i używać różnych broni.
+    Broń:
+        Nóż: (Lub siekiera w zależności od wersji programu) Wystrzeliwany w kierunku ruchu bohatera.
+        Siekiera: Porusza się razem z bohaterem. Uruchamiana klawiszem E (możliwość uruchomienia co określony czas)
+        Kula ognia: Automatycznie wystrzeliwana co pewien czas w losowym kierunku.
+    Przeciwnicy: Potwory, które pojawiają się na planszy i ścigają bohatera. Można je zniszczyć przy pomocy broni.
+    Życia: Bohater posiada ograniczoną liczbę żyć, reprezentowanych przez ikony serc. Kolizja z potworem zmniejsza liczbę żyć.
+    Punkty: Zdobywaj punkty za zabijanie potworów różnymi broniami.
